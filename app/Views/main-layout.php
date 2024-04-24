@@ -2,12 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="ConsTimes HTML5 Template">
-    <meta name="description" content="ConsTimes HTML5 Template">
+  
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>ConsTimes HTML5 Template</title>
+    <?=$this->renderSection('meta')?>
 
     <!-- Apple Favicon -->
     <link rel="apple-touch-icon" href="<?=base_url()?>assets/img/logo/favicon.svg">
@@ -77,59 +76,48 @@
                         <nav class="main-menu">
                             <ul>
                                 <li>
-                                    <a href="#" class="active">Home</a>
+                                    <a href="<?=base_url('/')?>" class="active">Home</a>
                                   
                                 </li>
                                 <li>
-                                    <a href="#">About Us <span class="my-icon icon-arrow-down"></span></a>
-                                    <ul>
-                                        <li><a href="about-us.html">About Us</a></li>
-                                        <li><a href="about-us-rtl.html">About Us RTL</a></li>
-                                    </ul>
+                                    <a href="<?=base_url('about-us')?>">About Us</a>
+                                   
                                 </li>
                                 <li>
                                     <a href="#">Services <span class="my-icon icon-arrow-down"></span></a>
                                     <ul>
-                                        <li><a href="service.html">Service</a></li>
-                                        <li><a href="service-details.html">Service Details</a></li>
-                                        <li><a href="service-rtl.html">Service RTL</a></li>
-                                        <li><a href="service-details-rtl.html">Service Details RTL</a></li>
+                                        <li><a href="<?=base_url('service')?>">Service</a></li>
+                                        <li><a href="<?=base_url('service-detail')?>">Service Details</a></li>
+                                      
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="#">Projects <span class="my-icon icon-arrow-down"></span></a>
                                     <ul>
-                                        <li><a href="project.html">Project</a></li>
-                                        <li><a href="project-details.html">Project Details</a></li>
-                                        <li><a href="project-rtl.html">Project RTL</a></li>
-                                        <li><a href="project-details-rtl.html">Project Details RTL</a></li>
+                                        <li><a href="<?=base_url('project')?>">Project</a></li>
+                                        <li><a href="<?=base_url('project-detail')?>">Project Details</a></li>
+                                        
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="#">Blog <span class="my-icon icon-arrow-down"></span></a>
                                     <ul>
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="blog-details.html">Blog Details</a></li>
-                                        <li><a href="blog-rtl.html">Blog RTL</a></li>
-                                        <li><a href="blog-details-rtl.html">Blog Details RTL</a></li>
+                                        <li><a href="<?=base_url('blog')?>">Blog</a></li>
+                                        <li><a href="<?=base_url('blog-detail')?>">Blog Details</a></li>
+                                       
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="#">Page <span class="my-icon icon-arrow-down"></span></a>
                                     <ul>
-                                        <li><a href="team.html">Team</a></li>
-                                        <li><a href="team-details.html">Team Details</a></li>
-                                        <li><a href="faq.html">Faq</a></li>
-                                        <li><a href="team-rtl.html">Team RTL</a></li>
-                                        <li><a href="team-details-rtl.html">Team Details RTL</a></li>
-                                        <li><a href="faq-rtl.html">Faq RTL</a></li>
+                                        <li><a href="<?=base_url('team')?>">Team</a></li>
+                                        <li><a href="<?=base_url('team-detail')?>">Team Details</a></li>
+                                        <li><a href="<?=base_url('faq')?>">Faq</a></li>
+                                      
                                     </ul>
                                 </li>
-                                <li><a href="#">Contact <span class="my-icon icon-arrow-down"></span></a>
-                                    <ul>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="contact-rtl.html">اتصال</a></li>
-                                    </ul>
+                                <li><a href="<?=base_url('contact')?>">Contact</a>
+                                    
                                 </li>
                             </ul>
                         </nav>

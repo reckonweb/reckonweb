@@ -1,10 +1,17 @@
 <?=$this->extend('main-layout')?>
+
+<?=$this->section('meta')?>
+<meta name="keywords" content="Reckon Web Solution">
+<meta name="description" content="Reckon Web Solution">
+<title>Reckon Web Solution</title>
+
+<?=$this->endSection()?>
 <?=$this->section('content')?>
 
 
 <main>
             <!-- Banner Start -->
-            <section class="banner v2 bg-cover-center" data-background="assets/img/banner/v2/banner-2.jpg">
+            <section class="banner v2 bg-cover-center" data-background="<?=base_url()?>assets/img/banner/v2/banner-2.jpg">
                 <div class="container">
                     <div class="banner-content">
                         <div class="banner-left wow animate__fadeInLeft" data-wow-duration="1.5s" data-wow-delay="0s">
