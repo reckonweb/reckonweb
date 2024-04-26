@@ -9,7 +9,7 @@
 <?=$this->section('content')?>
 
 
-<main>
+
 <main>
             <!-- Breadcum Start -->
             <section class="breadcum bg-cover-center" data-background="<?=base_url()?>assets/img/breadcum/breadcum-bg-1.jpg">

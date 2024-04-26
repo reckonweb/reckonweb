@@ -169,7 +169,7 @@
             </section>
             <!-- Service Details End -->
         </main>
-        </main>
+        
 <?=$this->endSection()?>
 
 
