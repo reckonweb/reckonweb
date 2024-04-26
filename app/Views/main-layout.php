@@ -44,13 +44,13 @@
                         <div class="info-link">
                             <ul>
                                 <li><span class="my-icon icon-call"></span>
-                                    <p><a href="#">(629) 555-0129</a></p>
+                                    <p><a href="#">8909888773</a></p>
                                 </li>
                                 <li><span class="my-icon icon-envelope"></span>
-                                    <p><a href="#">info@example.com</a></p>
+                                    <p><a href="#">reckonweb123@gmail.com</a></p>
                                 </li>
                                 <li><span class="my-icon icon-location"></span>
-                                    <p><a href="#">6391 Elgin St. Celina, 10299</a></p>
+                                    <p><a href="#">Dehradun</a></p>
                                 </li>
                             </ul>
                         </div>
@@ -71,13 +71,12 @@
                 <div class="container">
                     <div class="menu-bar-content">
                         <div class="menu-logo">
-                            <a href="index.html"><img src="<?=base_url()?>assets/img/logo/logo-1.svg" alt="Logo"></a>
+                            <a href="index.html"><img src="<?=base_url()?>assets/img/logo/logo1.png" alt="Logo"></a>
                         </div>
                         <nav class="main-menu">
                             <ul>
                                 <li>
-                                    <a href="<?=base_url('/')?>" class="active">Home</a>
-                                  
+                                    <a href="<?=base_url('/')?>" class="">Home</a>
                                 </li>
                                 <li>
                                     <a href="<?=base_url('about-us')?>">About Us</a>
@@ -126,7 +125,7 @@
                             </div>
                             <div class="text-content">
                                 <p>Need help?</p>
-                                <h4><a href="#">(808) 555-0111</a></h4>
+                                <h4><a href="#">8909888773</a></h4>
                             </div>
                         </div>
                         <button class="mobile-menu-btn">
@@ -148,8 +147,8 @@
                     <div class="row">
                         <div class="col-md-6 col-lg-4 col-xl-3 order-1">
                             <div class="footer-left">
-                                <div class="footer-logo">
-                                    <a href="index.html"><img src="<?=base_url()?>assets/img/logo/logo-2.svg" alt="logo"></a>
+                                <div>
+                                    <h4 class="text-light fw-bold">Reckon Web Solution</h4>
                                 </div>
                                 <p>Lorem Ipsum is simply is dumi in thi omy is text Loremo Ipsum is simply is out no our
                                     o dummy text.</p>
@@ -232,11 +231,11 @@
             <div class="footer-main v2">
                 <div class="container">
                     <div class="footer-content">
-                        <p>© <a href="#">Yoursitename</a> 2024 | All Rights Reserved</p>
+                        <p>© <a href="#">Reckon Web</a> 2024 | All Rights Reserved</p>
                         <ul>
                             <li><a href="#">Trams & Condition</a></li>
                             <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="<?=base_url('contact')?>">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>

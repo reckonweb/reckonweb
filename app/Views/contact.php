@@ -32,21 +32,21 @@
                                     <div class="my-icon icon-phone-book"></div>
                                     <div class="content">
                                         <h4>Phone Number</h4>
-                                        <p><a href="#">+88 912 123 456</a></p>
+                                        <p><a href="#">8909888773</a></p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="my-icon icon-envelope-solid"></div>
                                     <div class="content">
                                         <h4>Email</h4>
-                                        <p><a href="#">Dr. San Jose,California</a></p>
+                                        <p><a href="#">reckonweb123@gmail.com</a></p>
                                     </div>
                                 </li>
                                 <li>
                                     <div class="my-icon icon-location-pin-solid"></div>
                                     <div class="content">
                                         <h4>Location</h4>
-                                        <p><a href="#">99 chicago,America</a></p>
+                                        <p><a href="#">Dehradun</a></p>
                                     </div>
                                 </li>
                             </ul>

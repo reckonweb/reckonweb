@@ -79,7 +79,7 @@
                                                     <span class="my-icon icon-call"></span>                                                </div>
                                                 <div class="text-content">
                                                     <p>Need help?</p>
-                                                    <h4><a href="#">(808) 555-0111</a></h4>
+                                                    <h4><a href="#">8909888773</a></h4>
                                                 </div>
                                             </div>
                                         </li>
@@ -330,7 +330,7 @@
                                     <div class="my-icon icon-24-help">                                    </div>
                                     <div class="text-content">
                                         <h4>Need help?</h4>
-                                        <h3><a href="#">(808) 555-0111</a></h3>
+                                        <h3><a href="#">8909888773</a></h3>
                                     </div>
                                 </div>
                             </div>
