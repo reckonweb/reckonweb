@@ -71,7 +71,7 @@
                 <div class="container">
                     <div class="menu-bar-content">
                         <div class="menu-logo">
-                            <a href="index.html"><img src="<?=base_url()?>assets/img/logo/logo1.png" alt="Logo"></a>
+                            <a href="index.html"><img src="<?=base_url()?>assets/img/logo/logo.png" alt="Logo"></a>
                         </div>
                         <nav class="main-menu">
                             <ul>
